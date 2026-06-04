@@ -44,31 +44,31 @@
           desc = "+buffer";
         };
       };
-      "<leader>ff" = {
+      "<leader>sf" = {
         action = "find_files";
         options = {
           desc = "Find project files";
         };
       };
-      "<leader>fr" = {
+      "<leader>st" = {
         action = "live_grep";
         options = {
           desc = "Find text";
         };
       };
-      "<leader>fR" = {
+      "<leader>sR" = {
         action = "resume";
         options = {
           desc = "Resume";
         };
       };
-      "<leader>fg" = {
+      "<leader>sO" = {
         action = "oldfiles";
         options = {
           desc = "Recent";
         };
       };
-      "<leader>fb" = {
+      "<leader>sB" = {
         action = "buffers";
         options = {
           desc = "Buffers";
@@ -156,12 +156,6 @@
         action = "vim_options";
         options = {
           desc = "Options";
-        };
-      };
-      "<leader>sR" = {
-        action = "resume";
-        options = {
-          desc = "Resume";
         };
       };
       "<leader>uC" = {
